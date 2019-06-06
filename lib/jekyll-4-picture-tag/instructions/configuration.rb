@@ -19,13 +19,13 @@ module PictureTag
       end
 
       # Site.source is the master jekyll source directory
-      # Source dir is the jekyll-picture-tag source directory.
+      # Source dir is the jekyll-4-picture-tag source directory.
       def source_dir
         File.join PictureTag.site.source, self['picture']['source']
       end
 
       # site.dest is the master jekyll destination directory
-      # source_dest is the jekyll-picture-tag destination directory. (generated
+      # source_dest is the jekyll-4-picture-tag destination directory. (generated
       # file location setting.)
       def dest_dir
         File.join PictureTag.site.dest, self['picture']['output']
@@ -57,7 +57,7 @@ module PictureTag
         YAML.safe_load(
           # Jekyll Picture Tag Default settings
           File.read(
-            File.join(ROOT_PATH, 'jekyll-picture-tag/defaults/global.yml')
+            File.join(ROOT_PATH, 'jekyll-4-picture-tag/defaults/global.yml')
           )
         ).merge(
           # _config.yml defined settings

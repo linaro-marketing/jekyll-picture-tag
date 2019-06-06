@@ -1,12 +1,12 @@
 require 'objective_elements'
 
-require_relative 'jekyll-picture-tag/generated_image'
-require_relative 'jekyll-picture-tag/source_image'
-require_relative 'jekyll-picture-tag/instructions'
-require_relative 'jekyll-picture-tag/output_formats'
-require_relative 'jekyll-picture-tag/srcsets'
-require_relative 'jekyll-picture-tag/utils'
-require_relative 'jekyll-picture-tag/version'
+require_relative 'jekyll-4-picture-tag/generated_image'
+require_relative 'jekyll-4-picture-tag/source_image'
+require_relative 'jekyll-4-picture-tag/instructions'
+require_relative 'jekyll-4-picture-tag/output_formats'
+require_relative 'jekyll-4-picture-tag/srcsets'
+require_relative 'jekyll-4-picture-tag/utils'
+require_relative 'jekyll-4-picture-tag/version'
 
 module PictureTag
   ROOT_PATH = __dir__
@@ -18,9 +18,9 @@ module PictureTag
   #
   # Description: Easy responsive images for Jekyll.
   #
-  # Download: https://github.com/robwierzbowski/jekyll-picture-tag
-  # Documentation: https://github.com/robwierzbowski/jekyll-picture-tag/readme.md
-  # Issues: https://github.com/robwierzbowski/jekyll-picture-tag/issues
+  # Download: https://github.com/robwierzbowski/jekyll-4-picture-tag
+  # Documentation: https://github.com/robwierzbowski/jekyll-4-picture-tag/readme.md
+  # Issues: https://github.com/robwierzbowski/jekyll-4-picture-tag/issues
   #
   # Syntax:
   #   {% picture [preset] img.jpg [media_query: alt-img.jpg] [attr="value"] %}

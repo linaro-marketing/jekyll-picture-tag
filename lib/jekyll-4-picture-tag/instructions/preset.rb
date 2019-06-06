@@ -38,7 +38,7 @@ module PictureTag
 
       def default_preset
         YAML.safe_load File.read(
-          File.join(ROOT_PATH, 'jekyll-picture-tag/defaults/presets.yml')
+          File.join(ROOT_PATH, 'jekyll-4-picture-tag/defaults/presets.yml')
         )
       end
 

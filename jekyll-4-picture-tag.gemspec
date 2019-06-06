@@ -1,9 +1,9 @@
 lib = File.expand_path('lib', __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'jekyll-picture-tag/version'
+require 'jekyll-4-picture-tag/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'jekyll-picture-tag'
+  spec.name          = 'jekyll-4-picture-tag'
   spec.version       = PictureTag::VERSION
   spec.authors       = ['Robert Wierzbowski', 'Brendan Tobolaski',
                         'Robert Buchberger']
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
     source images, is fully configurable, and covers all use cases — including art direction and resolution switching —
     with a little YAML configuration and a simple template tag.
   HEREDOC
-  spec.homepage      = 'https://github.com/robwierzbowski/jekyll-picture-tag'
+  spec.homepage      = 'https://github.com/robwierzbowski/jekyll-4-picture-tag'
   spec.license       = 'BSD-3-Clause'
   spec.require_paths = ['lib']
 

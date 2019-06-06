@@ -67,7 +67,7 @@ markup_presets:
     attributes:
       img: 'class="icon"'
 
-  # Here's an example of how you'd configure jekyll-picture-tag to work with something like
+  # Here's an example of how you'd configure jekyll-4-picture-tag to work with something like
   # lazyload:
   # https://github.com/verlok/lazyload
   lazy:
