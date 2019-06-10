@@ -76,7 +76,7 @@ Add j-p-t to your gemfile:
 
 ```ruby
 group :jekyll_plugins do
-  gem 'jekyll-picture-tag', git: 'https://github.com/robwierzbowski/jekyll-picture-tag/'
+  gem 'jekyll-picture-tag-latest', git: 'https://github.com/robwierzbowski/jekyll-picture-tag-latest/'
 end
 ```
 
@@ -167,13 +167,13 @@ Get this:
 
 # Installation
 
-Add `jekyll-picture-tag` to your Gemfile in the `:jekyll_plugins` group.
+Add `jekyll-picture-tag-latest` to your Gemfile in the `:jekyll_plugins` group.
 For now I don't have push access to RubyGems, meaning you have to point your gemfile at this git repo.
 If you don't you'll get an old, incompatible version.
 
 ```ruby
 group :jekyll_plugins do
-  gem 'jekyll-picture-tag', git: 'https://github.com/robwierzbowski/jekyll-picture-tag/'
+  gem 'jekyll-picture-tag-latest', git: 'https://github.com/robwierzbowski/jekyll-picture-tag-latest/'
 end
 ```
 
@@ -796,7 +796,7 @@ while to remove unused images.
 # Contribute
 
 Report bugs and feature proposals in the
-[Github issue tracker](https://github.com/robwierzbowski/jekyll-picture-tag/issues).
+[Github issue tracker](https://github.com/robwierzbowski/jekyll-picture-tag-latest/issues).
 
 Pull requests are encouraged. With a few exceptions, this plugin is written to follow the Rubocop
 default settings (except the frozen string literal comment).
